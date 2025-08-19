@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-videos-api-pqnz.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -9,12 +9,12 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
-# GET http://localhost:3333/videos?search=node Busca com Query Parameters (título com node no nome)
+GET https://node-videos-api-pqnz.onrender.com/videos
+# GET https://node-videos-api-pqnz.onrender.com/videos?search=node Busca com Query Parameters (título com node no nome)
 
 ###
 
-PUT http://localhost:3333/videos/152bbfee-0020-47f6-82bc-d2d59f943a20
+PUT https://node-videos-api-pqnz.onrender.com/videos/152bbfee-0020-47f6-82bc-d2d59f943a20
 Content-Type: application/json
 
 {
@@ -25,4 +25,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/152bbfee-0020-47f6-82bc-d2d59f943a20
+DELETE https://node-videos-api-pqnz.onrender.com/videos/152bbfee-0020-47f6-82bc-d2d59f943a20
